@@ -1,12 +1,11 @@
-import React, {  useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 import './colorBox.scss';
 
 ColorBox.propTypes = {
     
 };
 function getRandomColor(){
-    const COLOR_LIST=['deeppink','green','yellow','red'];
+    const COLOR_LIST=['deeppink','green','yellow','red',];
     const ramdomIndex=Math.trunc(Math.random()*5);
     return COLOR_LIST[ramdomIndex];
 
